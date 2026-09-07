@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Series X — El tiempo, reinventado</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <span class="nav-mark">◐</span>
+    <span class="nav-name">watch</span>
+    <div class="nav-links">
+      <a href="#pantalla">Pantalla</a>
+      <a href="#materiales">Materiales</a>
+      <a href="#salud">Salud</a>
+      <a href="#caja">La caja</a>
+    </div>
+    <a href="#comprar" class="nav-cta">Comprar</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <video class="hero-video" autoplay muted loop playsinline poster="liquid-face-dark.jpeg">
+    <source src="hero-video.mp4" type="video/mp4">
+  </video>
+  <div class="hero-scrim"></div>
+  <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false">
+    <svg class="icon-muted" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z" fill="currentColor"/><line x1="16" y1="9" x2="22" y2="15" stroke="currentColor" stroke-width="2"/><line x1="22" y1="9" x2="16" y2="15" stroke="currentColor" stroke-width="2"/></svg>
+    <svg class="icon-unmuted" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7" stroke="currentColor" stroke-width="2" fill="none"/><path d="M19 6a9 9 0 0 1 0 12" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+    <span class="sound-label">Activar sonido</span>
+  </button>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Presentamos</p>
+    <h1 class="hero-title">El tiempo se<br>mueve distinto ahora.</h1>
+    <p class="hero-sub">Una esfera líquida que respira con cada segundo. La misma precisión de siempre, con una cara completamente nueva.</p>
+    <div class="hero-actions">
+      <a href="#pantalla" class="btn btn-light">Ver la pantalla</a>
+      <a href="#comprar" class="btn btn-ghost">Desde $8,999</a>
+    </div>
+  </div>
+  <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+</header>
+
+<section class="intro">
+  <p class="intro-line">No rediseñamos el reloj.<br><span>Rediseñamos lo que se siente al mirarlo.</span></p>
+</section>
+
+<section class="feature-split" id="pantalla">
+  <div class="feature-media">
+    <img src="liquid-face-grid.jpeg" alt="Esfera líquida negra en detalle, vista de tres ángulos" loading="lazy">
+  </div>
+  <div class="feature-copy">
+    <span class="tag">Pantalla</span>
+    <h2>Vidrio negro que<br>parece agua quieta.</h2>
+    <p>La nueva esfera dinámica distorsiona la luz como si fuera líquido real. Cada burbuja marca una hora, cada reflejo cambia contigo al girar la muñeca. Se ve distinto en cada movimiento, y aun así siempre sabes qué hora es.</p>
+    <ul class="spec-list">
+      <li><span>Brillo</span><b>Hasta 3,000 nits</b></li>
+      <li><span>Cristal</span><b>Zafiro resistente a rayones</b></li>
+      <li><span>Actualización</span><b>Siempre activa</b></li>
+    </ul>
+  </div>
+</section>
+
+<section class="bleed-image" id="materiales">
+  <img src="liquid-face-blur.jpeg" alt="Acercamiento a la carátula de acero inoxidable con efecto de desenfoque de movimiento">
+  <div class="bleed-caption">
+    <h2>Acero pulido.<br>Movimiento real.</h2>
+    <p>Fotografiado en pleno giro. Así se comporta en la vida real, no solo en reposo.</p>
+  </div>
+</section>
+
+<section class="reach-section">
+  <div class="reach-media">
+    <img src="hand-reach.jpeg" alt="Una mano se acerca a un Apple Watch con esfera de calendario suspendido en el aire">
+  </div>
+  <div class="reach-copy">
+    <span class="tag">Diseño</span>
+    <h2>Ligero, hasta que<br>lo necesitas de verdad.</h2>
+    <p>Aluminio de grado aeroespacial en el cuerpo, correa deportiva de silicón suave al tacto. Lo suficientemente discreto para olvidar que lo traes puesto, hasta que revisa tu pulso a media carrera.</p>
+  </div>
+</section>
+
+<section class="dark-band" id="salud">
+  <span class="tag tag-light">Ultra resistencia</span>
+  <h2>Para cuando sales<br>del camino conocido.</h2>
+  <div class="dark-media">
+    <img src="ultra-wrist-green.jpeg" alt="Apple Watch Ultra con correa verde en la muñeca, esfera de brújula encendida">
+  </div>
+  <p class="dark-caption">Correa trail verde. Caja de titanio. Encendido y listo, sin importar el terreno.</p>
+</section>
+
+<section class="color-showcase">
+  <img src="purple-pedestal.jpeg" alt="Apple Watch recostado sobre pedestales color lavanda, mostrando la hora 11:25 en morado">
+  <div class="color-copy">
+    <h2>Un reloj que también<br>combina con tu ánimo.</h2>
+    <p>Las esferas cambian de tono con la luz del día. Frío en la mañana, cálido al atardecer.</p>
+  </div>
+</section>
+
+<section class="box-section" id="caja">
+  <h2 class="box-title">Todo lo que necesitas,<br>nada de lo que sobra.</h2>
+  <div class="box-grid">
+    <figure>
+      <img src="box-midnight.jpeg" alt="Contenido de la caja: Apple Watch color medianoche, correa Sport Loop y cable de carga magnético USB-C">
+      <figcaption><b>Edición Medianoche</b><span>Sport Loop trenzado + cable de carga USB-C</span></figcaption>
+    </figure>
+    <figure>
+      <img src="box-black.jpeg" alt="Contenido de la caja: Apple Watch negro brillante, correa deportiva y cable de carga rápida">
+      <figcaption><b>Edición Acero Negro</b><span>Correa deportiva + cable de carga rápida</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="cta-final" id="comprar">
+  <h2>Tu próxima hora<br>empieza aquí.</h2>
+  <p>Desde $8,999 MXN o en 12 meses sin intereses.</p>
+  <a href="#" class="btn btn-light btn-large">Comprar ahora</a>
+  <p class="cta-fine">El envío y la caja pueden variar según el modelo elegido.</p>
+</section>
+
+<footer class="site-footer">
+  <p class="footer-authors"><span>Elaborado por</span> Mayrel Tapia Rosas · Anna Daila Santos Bazán · Salgado Velázquez Alejandra · Quiebras Tepalcingo Esthefany Rubí</p>
+  <p>Página de demostración con fines académicos. No es un producto ni una tienda oficial de Apple.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
